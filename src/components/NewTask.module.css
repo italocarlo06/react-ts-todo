@@ -1,0 +1,47 @@
+.newTask{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: calc(0px - 3.60rem )
+}
+
+.newTask input{
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  color: var(--gray-300);
+
+  padding: 1rem;
+
+  border: 0;
+  border-radius: 8px;
+
+  flex-grow: 1;
+  height: 3.375rem;
+}
+
+.newTask button {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+
+  font-size: 0.875rem;
+  
+  padding: 1rem;
+  border-radius: 8px;
+  height: 3.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+  border: 0;
+
+  gap: 8px;
+
+  transition: background-color 0.2s;
+}
+
+.newTask button:hover{
+  background: var(--blue);
+
+}

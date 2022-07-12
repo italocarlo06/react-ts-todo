@@ -1,0 +1,93 @@
+.todoList{
+  display:flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+
+  padding: 0;
+  
+  gap: 3rem;
+
+  width: 100%;
+
+}
+
+.todoList header{
+  display: flex;
+    
+  justify-content: space-between;
+  width: 100%;
+}
+
+.createdTasks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+.completedTasks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+.createdTasks p {
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.completedTasks p {
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.counter {
+  border-radius: 999px;
+  color: var(--gray-100);
+  background: var(--gray-400);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  gap: 10px;
+  padding: 2px 8px;
+}
+
+
+.emptyList{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  color: var(--gray-300);
+  
+  gap:1rem;
+
+  padding: 4rem 1.5rem;
+
+  height: 15.25rem;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  width: 100%;
+  line-height: 1.4;
+
+  font-weight: 400;
+}
+
+.emptyList p {
+  text-align: center;
+}
+
+.emptyList strong {
+  font-weight: 700;
+}
+
